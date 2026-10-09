@@ -1,0 +1,13 @@
+{
+  "quark_cookie": "",
+  "zsxq_group_id": "",
+  "default_expire": 0,
+  "default_password": "",
+  "wechat_group": "工程交流2群（筑界）",
+  "wechat_group_id": "",
+  "clawbot_token": "",
+  "clawbot_base_url": "https://ilinkai.weixin.qq.com",
+  "clawbot_bot_id": "",
+  "wechat_send_enabled": false,
+  "source_folder": "自发群"
+}

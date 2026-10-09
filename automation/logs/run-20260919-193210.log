@@ -1,0 +1,10 @@
+2026-09-19T19:32:10+08:00 run_id=20260919-193210 start dry_run=True
+2026-09-19T19:32:13+08:00 preflight=blocked
+2026-09-19T19:32:13+08:00 blocking_failure=quark_login
+2026-09-19T19:32:13+08:00 blocking_failure=zsxq_login
+2026-09-19T19:32:13+08:00 blocking_failure=local_upload_adapter:ai_open_source_projects
+2026-09-19T19:32:13+08:00 blocking_failure=local_upload_adapter:ai_engineering_tools_skills
+2026-09-19T19:32:13+08:00 blocking_failure=local_upload_adapter:solar_resources
+2026-09-19T19:32:13+08:00 blocking_failure=local_upload_adapter:cost_optimization_resources
+2026-09-19T19:32:13+08:00 blocking_failure=local_upload_adapter:city_renewal_resources
+2026-09-19T19:32:13+08:00 blocking_failure=local_upload_adapter:ima_misc_resources

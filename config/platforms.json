@@ -1,0 +1,29 @@
+{
+  "_comment": "主配置只登记适配器引用与路由，绝不存放账号/Cookie 明文。凭证一律经环境变量或独立密钥文件（config/zsxq_cookies.json）注入。",
+  "platforms": {
+    "knowledge_planet": {
+      "display_name": "知识星球",
+      "adapter_module": "knowledge_planet",
+      "adapter_class": "KnowledgePlanetAdapter",
+      "auth": "cookie",
+      "cookie_source": "env:ZSXQ_COOKIE_FILE",
+      "cookie_fallback": "config/zsxq_cookies.json",
+      "backends": ["playwright", "zsxq_cli"]
+    }
+  },
+  "publish_config": {
+    "knowledge_planet": {
+      "enabled": false,
+      "adapter": "knowledge_planet.KnowledgePlanetAdapter",
+      "default_group_id": "",
+      "backend": "playwright",
+      "rate_limit_seconds": 5,
+      "require_receipt_verification": true,
+      "llm": {
+        "api_base": "env:LLM_API_BASE",
+        "api_key": "env:LLM_API_KEY",
+        "model": "env:LLM_API_MODEL"
+      }
+    }
+  }
+}

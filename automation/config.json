@@ -1,0 +1,83 @@
+{
+  "name": "WorkBuddy ZSXQ Nightly Automation",
+  "timezone": "Asia/Shanghai",
+  "window": {
+    "start": "03:00",
+    "end": "04:30"
+  },
+  "batch_size": 5,
+  "settings_file": "..\\config\\settings.json",
+  "zsxq_cookie_file": "..\\config\\zsxq_cookies.json",
+  "state_file": "state.json",
+  "routes": [
+    {
+      "name": "ai_open_source_projects",
+      "enabled": true,
+      "group_id": "48885151825858",
+      "source_mode": "local",
+      "source_candidates": [
+        "D:\\Codex\\projects\\开源项目",
+        "E:\\人工智能体",
+        "F:\\人工智能体"
+      ],
+      "description": "Latest open-source AI projects."
+    },
+    {
+      "name": "ai_engineering_tools_skills",
+      "enabled": true,
+      "group_id": "28882121842881",
+      "source_mode": "local",
+      "source_candidates": [
+        "D:\\Codex\\projects\\开源项目\\repos\\_downloads",
+        "D:\\Codex\\projects\\开源项目",
+        "E:\\人工智能体",
+        "F:\\人工智能体"
+      ],
+      "description": "Open-source AI engineering tools and skills."
+    },
+    {
+      "name": "solar_resources",
+      "enabled": true,
+      "group_id": "88882584141252",
+      "source_mode": "local",
+      "source_candidates": [
+        "E:\\IMA知识库上传\\太阳能资料合集",
+        "F:\\IMA知识库上传\\太阳能资料合集"
+      ],
+      "description": "Solar resource files."
+    },
+    {
+      "name": "cost_optimization_resources",
+      "enabled": true,
+      "group_id": "48885482121548",
+      "source_mode": "local",
+      "source_candidates": [
+        "E:\\IMA知识库上传\\成本优化设计合集",
+        "F:\\IMA知识库上传\\成本优化设计合集"
+      ],
+      "description": "Cost optimization design resource files."
+    },
+    {
+      "name": "city_renewal_resources",
+      "enabled": true,
+      "group_id": "28882584141811",
+      "source_mode": "local",
+      "source_candidates": [
+        "E:\\IMA知识库上传\\城市更新项目造资料合集",
+        "F:\\IMA知识库上传\\城市更新项目造资料合集"
+      ],
+      "description": "Urban renewal resource files."
+    },
+    {
+      "name": "ima_misc_resources",
+      "enabled": true,
+      "group_id": "15552114118152",
+      "source_mode": "local",
+      "source_candidates": [
+        "E:\\IMA知识库上传",
+        "F:\\IMA知识库上传"
+      ],
+      "description": "Other files directly under the IMA upload root."
+    }
+  ]
+}

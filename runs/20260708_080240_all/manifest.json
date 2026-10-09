@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-07-08T08:02:49",
+  "date": "2026-07-08",
+  "slot": "all",
+  "slot_window": "all",
+  "destination": "工程交流2群（筑界）",
+  "folder_id": "f19a6bf448314938bf91b308fc4722bb",
+  "folder_name": "自发群",
+  "source_file_count": 1,
+  "selected_file_count": 1,
+  "limit": 1,
+  "create_shares": true,
+  "items": [
+    {
+      "file_id": "dca5e7a0d8204a5caac32e1fd92d05a1",
+      "title": ".建筑工程施工安全管理资料（15册）",
+      "type": "file",
+      "file_name": ".建筑工程施工安全管理资料（15册）",
+      "file_size": 0,
+      "file_type": 0,
+      "updated_at": 1779506078463,
+      "share_url": "https://pan.quark.cn/s/eaa5fe568e94",
+      "share_pwd": "",
+      "share_success": true
+    }
+  ]
+}

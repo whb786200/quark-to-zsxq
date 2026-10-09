@@ -1,0 +1,21 @@
+{
+  "run_id": "20260919-184956",
+  "finished_at": "2026-09-19T18:49:57+08:00",
+  "success": false,
+  "dry_run": true,
+  "status": "blocked_by_preflight",
+  "blocking_failures": [
+    "quark_login",
+    "zsxq_login",
+    "local_upload_adapter:ai_open_source_projects",
+    "local_upload_adapter:ai_engineering_tools_skills",
+    "source:solar_resources",
+    "local_upload_adapter:solar_resources",
+    "source:cost_optimization_resources",
+    "local_upload_adapter:cost_optimization_resources",
+    "source:city_renewal_resources",
+    "local_upload_adapter:city_renewal_resources",
+    "source:ima_misc_resources",
+    "local_upload_adapter:ima_misc_resources"
+  ]
+}

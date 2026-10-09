@@ -1,0 +1,270 @@
+{
+  "checked_at": "2026-09-28T03:02:58+08:00",
+  "success": false,
+  "blocking_failures": [
+    "quark_login",
+    "zsxq_login",
+    "local_upload_adapter:ai_open_source_projects",
+    "local_upload_adapter:ai_engineering_tools_skills",
+    "local_upload_adapter:solar_resources",
+    "local_upload_adapter:cost_optimization_resources",
+    "local_upload_adapter:city_renewal_resources",
+    "local_upload_adapter:ima_misc_resources"
+  ],
+  "checks": [
+    {
+      "name": "file:main.py",
+      "ok": true,
+      "detail": "D:\\1052-OS\\skills\\quark-to-zsxq\\main.py"
+    },
+    {
+      "name": "file:quark_share.py",
+      "ok": true,
+      "detail": "D:\\1052-OS\\skills\\quark-to-zsxq\\quark_share.py"
+    },
+    {
+      "name": "file:zsxq_publisher.py",
+      "ok": true,
+      "detail": "D:\\1052-OS\\skills\\quark-to-zsxq\\zsxq_publisher.py"
+    },
+    {
+      "name": "python_dependencies",
+      "ok": true,
+      "detail": "playwright and requests import successfully"
+    },
+    {
+      "name": "quark_login",
+      "ok": false,
+      "detail": "config/settings.json has no quark_cookie"
+    },
+    {
+      "name": "zsxq_login",
+      "ok": false,
+      "detail": "missing D:\\1052-OS\\skills\\quark-to-zsxq\\config\\zsxq_cookies.json"
+    },
+    {
+      "name": "group:ai_open_source_projects",
+      "ok": true,
+      "detail": "48885151825858"
+    },
+    {
+      "name": "source:ai_open_source_projects",
+      "ok": true,
+      "detail": "D:\\Codex\\projects\\开源项目"
+    },
+    {
+      "name": "local_upload_adapter:ai_open_source_projects",
+      "ok": false,
+      "detail": "no local-file-to-Quark upload adapter is configured"
+    },
+    {
+      "name": "group:ai_engineering_tools_skills",
+      "ok": true,
+      "detail": "28882121842881"
+    },
+    {
+      "name": "source:ai_engineering_tools_skills",
+      "ok": true,
+      "detail": "D:\\Codex\\projects\\开源项目"
+    },
+    {
+      "name": "local_upload_adapter:ai_engineering_tools_skills",
+      "ok": false,
+      "detail": "no local-file-to-Quark upload adapter is configured"
+    },
+    {
+      "name": "group:solar_resources",
+      "ok": true,
+      "detail": "88882584141252"
+    },
+    {
+      "name": "source:solar_resources",
+      "ok": true,
+      "detail": "E:\\IMA知识库上传\\太阳能资料合集"
+    },
+    {
+      "name": "local_upload_adapter:solar_resources",
+      "ok": false,
+      "detail": "no local-file-to-Quark upload adapter is configured"
+    },
+    {
+      "name": "group:cost_optimization_resources",
+      "ok": true,
+      "detail": "48885482121548"
+    },
+    {
+      "name": "source:cost_optimization_resources",
+      "ok": true,
+      "detail": "E:\\IMA知识库上传\\成本优化设计合集"
+    },
+    {
+      "name": "local_upload_adapter:cost_optimization_resources",
+      "ok": false,
+      "detail": "no local-file-to-Quark upload adapter is configured"
+    },
+    {
+      "name": "group:city_renewal_resources",
+      "ok": true,
+      "detail": "28882584141811"
+    },
+    {
+      "name": "source:city_renewal_resources",
+      "ok": true,
+      "detail": "E:\\IMA知识库上传\\城市更新项目造资料合集"
+    },
+    {
+      "name": "local_upload_adapter:city_renewal_resources",
+      "ok": false,
+      "detail": "no local-file-to-Quark upload adapter is configured"
+    },
+    {
+      "name": "group:ima_misc_resources",
+      "ok": true,
+      "detail": "15552114118152"
+    },
+    {
+      "name": "source:ima_misc_resources",
+      "ok": true,
+      "detail": "E:\\IMA知识库上传"
+    },
+    {
+      "name": "local_upload_adapter:ima_misc_resources",
+      "ok": false,
+      "detail": "no local-file-to-Quark upload adapter is configured"
+    }
+  ],
+  "routes": [
+    {
+      "name": "ai_open_source_projects",
+      "enabled": true,
+      "group_id": "48885151825858",
+      "source_mode": "local",
+      "source_candidates": [
+        "D:\\Codex\\projects\\开源项目",
+        "E:\\人工智能体",
+        "F:\\人工智能体"
+      ],
+      "description": "Latest open-source AI projects.",
+      "source": {
+        "candidates": [
+          "D:\\Codex\\projects\\开源项目",
+          "E:\\人工智能体",
+          "F:\\人工智能体"
+        ],
+        "selected": "D:\\Codex\\projects\\开源项目",
+        "exists": true,
+        "file_count": 1,
+        "file_count_capped": false
+      }
+    },
+    {
+      "name": "ai_engineering_tools_skills",
+      "enabled": true,
+      "group_id": "28882121842881",
+      "source_mode": "local",
+      "source_candidates": [
+        "D:\\Codex\\projects\\开源项目\\repos\\_downloads",
+        "D:\\Codex\\projects\\开源项目",
+        "E:\\人工智能体",
+        "F:\\人工智能体"
+      ],
+      "description": "Open-source AI engineering tools and skills.",
+      "source": {
+        "candidates": [
+          "D:\\Codex\\projects\\开源项目\\repos\\_downloads",
+          "D:\\Codex\\projects\\开源项目",
+          "E:\\人工智能体",
+          "F:\\人工智能体"
+        ],
+        "selected": "D:\\Codex\\projects\\开源项目",
+        "exists": true,
+        "file_count": 1,
+        "file_count_capped": false
+      }
+    },
+    {
+      "name": "solar_resources",
+      "enabled": true,
+      "group_id": "88882584141252",
+      "source_mode": "local",
+      "source_candidates": [
+        "E:\\IMA知识库上传\\太阳能资料合集",
+        "F:\\IMA知识库上传\\太阳能资料合集"
+      ],
+      "description": "Solar resource files.",
+      "source": {
+        "candidates": [
+          "E:\\IMA知识库上传\\太阳能资料合集",
+          "F:\\IMA知识库上传\\太阳能资料合集"
+        ],
+        "selected": "E:\\IMA知识库上传\\太阳能资料合集",
+        "exists": true,
+        "file_count": 100,
+        "file_count_capped": true
+      }
+    },
+    {
+      "name": "cost_optimization_resources",
+      "enabled": true,
+      "group_id": "48885482121548",
+      "source_mode": "local",
+      "source_candidates": [
+        "E:\\IMA知识库上传\\成本优化设计合集",
+        "F:\\IMA知识库上传\\成本优化设计合集"
+      ],
+      "description": "Cost optimization design resource files.",
+      "source": {
+        "candidates": [
+          "E:\\IMA知识库上传\\成本优化设计合集",
+          "F:\\IMA知识库上传\\成本优化设计合集"
+        ],
+        "selected": "E:\\IMA知识库上传\\成本优化设计合集",
+        "exists": true,
+        "file_count": 100,
+        "file_count_capped": true
+      }
+    },
+    {
+      "name": "city_renewal_resources",
+      "enabled": true,
+      "group_id": "28882584141811",
+      "source_mode": "local",
+      "source_candidates": [
+        "E:\\IMA知识库上传\\城市更新项目造资料合集",
+        "F:\\IMA知识库上传\\城市更新项目造资料合集"
+      ],
+      "description": "Urban renewal resource files.",
+      "source": {
+        "candidates": [
+          "E:\\IMA知识库上传\\城市更新项目造资料合集",
+          "F:\\IMA知识库上传\\城市更新项目造资料合集"
+        ],
+        "selected": "E:\\IMA知识库上传\\城市更新项目造资料合集",
+        "exists": true,
+        "file_count": 100,
+        "file_count_capped": true
+      }
+    },
+    {
+      "name": "ima_misc_resources",
+      "enabled": true,
+      "group_id": "15552114118152",
+      "source_mode": "local",
+      "source_candidates": [
+        "E:\\IMA知识库上传",
+        "F:\\IMA知识库上传"
+      ],
+      "description": "Other files directly under the IMA upload root.",
+      "source": {
+        "candidates": [
+          "E:\\IMA知识库上传",
+          "F:\\IMA知识库上传"
+        ],
+        "selected": "E:\\IMA知识库上传",
+        "exists": true,
+        "file_count": 100,
+        "file_count_capped": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-07-07T08:07:21",
+  "date": "2026-07-07",
+  "slot": "night",
+  "slot_window": "21:00-24:00",
+  "destination": "工程交流2群（筑界）",
+  "folder_id": "f19a6bf448314938bf91b308fc4722bb",
+  "folder_name": "自发群",
+  "source_file_count": 4,
+  "selected_file_count": 2,
+  "limit": 4,
+  "create_shares": true,
+  "items": [
+    {
+      "file_id": "948588e23e1f476d88f0a83da8cb8a47",
+      "title": "1.综合布线及机房使用常识视频教程",
+      "type": "file",
+      "file_name": "1.综合布线及机房使用常识视频教程",
+      "file_size": 0,
+      "file_type": 0,
+      "updated_at": 1779506078532,
+      "share_url": "",
+      "share_pwd": "",
+      "share_success": false
+    },
+    {
+      "file_id": "19574ad867d846a38547866b5429be54",
+      "title": "01斑马百科-哺乳动物",
+      "type": "file",
+      "file_name": "01斑马百科-哺乳动物",
+      "file_size": 0,
+      "file_type": 0,
+      "updated_at": 1778327243080,
+      "share_url": "",
+      "share_pwd": "",
+      "share_success": false
+    }
+  ]
+}
